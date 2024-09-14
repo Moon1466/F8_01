@@ -205,7 +205,7 @@ a {
   right: 0;
   z-index: 1;
   background: #e6f0ff;
-  padding-top: 38px;
+  padding: 20px 0;
 }
 .header__inner {
   display: flex;
