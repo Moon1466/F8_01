@@ -209,6 +209,7 @@
     }
 
     .work__desc{
+        width: 250px;
         font-size: 1.4rem;
     }
 

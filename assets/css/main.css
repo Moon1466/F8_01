@@ -204,7 +204,7 @@ a {
   right: 0;
   z-index: 1;
   background: #e6f0ff;
-  padding: 38px 0;
+  padding-top: 38px;
 }
 .header__inner {
   display: flex;
@@ -254,7 +254,7 @@ a {
   align-items: center;
 }
 .hero__content {
-  padding-top: 220px;
+  padding-top: 180px;
   width: 559px;
 }
 .hero__label {
@@ -361,6 +361,7 @@ a {
   color: #5a6473;
   font-size: 1.6rem;
   line-height: 187.5%;
+  width: 350px;
 }
 .work__list {
   margin-top: 70px;
