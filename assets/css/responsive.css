@@ -68,6 +68,10 @@
         padding: 20px 0;
     }
 
+    .hero{
+        height: calc(100vh - 102px);
+    }
+
     .hero__icon {
         display: none;
     }

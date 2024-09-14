@@ -579,7 +579,7 @@ a {
 .subs__inner {
   display: flex;
   align-items: center;
-  height: 370px;
+  height: 390px;
   border-radius: 20px;
   background: #063183;
   padding: 0 0 0 80px;
@@ -608,7 +608,7 @@ a {
   margin-left: 90px;
 }
 .subs__img {
-  margin-top: -30px;
+  margin-top: -40px;
   display: block;
   width: 218.083px;
   height: 438.437px;
@@ -636,12 +636,14 @@ a {
 .footer__link {
   color: #7a7a7e;
   font-size: 1.6rem;
+  transition: all 0.5s;
 }
 .footer__link + .footer__link {
   margin-top: 18px;
 }
 .footer__link:hover {
   text-decoration: underline;
+  color: #063183;
 }
 .footer__desc {
   color: #7a7a7e;

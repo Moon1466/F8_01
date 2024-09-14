@@ -490,7 +490,7 @@
     &__inner {
         display: flex;
         align-items: center;
-        height: 370px;
+        height: 390px;
         border-radius: 20px;
         background: #063183;
         padding: 0 0 0 80px;
@@ -528,7 +528,7 @@
     }
 
     &__img {
-        margin-top: -30px;
+        margin-top: -40px;
         display: block;
         width: 218.083px;
         height: 438.437px;
@@ -564,6 +564,7 @@
         color: #7a7a7e;
 
         font-size: 1.6rem;
+        transition: all .5s;
 
         & + & {
             margin-top: 18px;
@@ -571,6 +572,7 @@
 
         &:hover {
             text-decoration: underline;
+            color: #063183;
         }
     }
 
@@ -601,6 +603,7 @@
         &:hover {
             transform: translateY(-10px);
             background: #b6b6b6;
+
         }
     }
 
