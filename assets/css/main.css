@@ -140,6 +140,7 @@ table {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -600,7 +601,7 @@ a {
 }
 
 .subs {
-  margin-top: 112px;
+  margin-top: 121px;
 }
 .subs__inner {
   display: flex;
