@@ -141,12 +141,14 @@ table {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
   font-family: "Poppins", system-ui;
   overflow: overlay;
   scrollbar-gutter: stable;
+  height: 100%;
 }
 
 a {
@@ -252,10 +254,11 @@ a {
 }
 .hero__inner {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  height: 100vh;
 }
 .hero__content {
-  padding-top: 180px;
+  align-self: center;
   width: 559px;
 }
 .hero__label {
@@ -282,11 +285,13 @@ a {
   margin-top: 40px;
   min-width: 170px;
 }
+.hero__media {
+  position: relative;
+}
 .hero__icon {
   position: absolute;
-  right: 0;
+  left: -40px;
   bottom: 0;
-  height: 100%;
 }
 
 .client {

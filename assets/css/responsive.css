@@ -8,7 +8,7 @@
     }
 
     .hero__icon {
-        height: calc(65% + ((100 - 65) * (100vw - 992px) / (1100 - 992)));
+     
     }
 
     .featured__btn{

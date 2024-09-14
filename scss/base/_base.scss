@@ -5,12 +5,14 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body{
     font-family: "Poppins", system-ui;
     overflow: overlay;
     scrollbar-gutter: stable;
+    height: 100%;
 }
 
 a{

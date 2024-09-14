@@ -64,12 +64,13 @@
 
     &__inner {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        height: 100vh;
     }
 
     &__content {
+        align-self: center;
 
-        padding-top: 180px;
         width: 559px;
     }
 
@@ -105,11 +106,14 @@
         min-width: 170px;
     }
 
+    &__media{
+        position: relative;
+    }
+
     &__icon {
         position: absolute;
-        right: 0;
+        left: -40px;
         bottom: 0;
-        height: 100%;
     }
 }
 
