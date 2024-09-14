@@ -198,6 +198,11 @@ a {
   }
 }
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   background: #e6f0ff;
   padding: 38px 0;
 }
@@ -216,6 +221,18 @@ a {
   font-size: 1.4rem;
   font-weight: 500;
 }
+.header__link:hover {
+  font-weight: 700;
+  text-align: center;
+}
+.header__link:before {
+  display: block;
+  content: attr(title);
+  font-weight: 700;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
 .header__act {
   display: flex;
   align-items: center;
@@ -230,14 +247,14 @@ a {
 .hero {
   position: relative;
   background: #e6f0ff;
-  height: calc(100vh - 116px);
+  height: 100vh;
 }
 .hero__inner {
   display: flex;
   align-items: center;
 }
 .hero__content {
-  padding-top: 130px;
+  padding-top: 220px;
   width: 559px;
 }
 .hero__label {
@@ -455,6 +472,14 @@ a {
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.14px;
+}
+.featured__bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.featured__btn {
+  min-width: 140px;
 }
 
 .stats {

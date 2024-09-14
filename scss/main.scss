@@ -1,15 +1,18 @@
 @use "./base";
 
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
     background: #e6f0ff;
     padding: 38px 0;
 
     &__inner {
         display: flex;
         align-items: center;
-        
     }
-
 
     &__list {
         display: flex;
@@ -23,6 +26,20 @@
         color: #4f5361;
         font-size: 1.4rem;
         font-weight: 500;
+    }
+
+    &__link:hover {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__link:before {
+        display: block;
+        content: attr(title);
+        font-weight: 700;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
     }
 
     &__act {
@@ -43,7 +60,7 @@
     position: relative;
 
     background: #e6f0ff;
-    height: calc(100vh - 116px);
+    height: 100vh;
 
     &__inner {
         display: flex;
@@ -51,7 +68,8 @@
     }
 
     &__content {
-        padding-top: 130px;
+
+        padding-top: 220px;
         width: 559px;
     }
 
@@ -64,7 +82,7 @@
 
     &__heading {
         margin-top: 8px;
-      
+
         color: #000336;
 
         font-size: 6.4rem;
@@ -75,7 +93,7 @@
 
     &__desc {
         margin-top: 30px;
-       
+
         color: #5a6473;
         font-size: 1.8rem;
         line-height: calc(32 / 18);
@@ -187,7 +205,6 @@
         font-size: 1.6rem;
 
         line-height: 187.5%;
-   
     }
 
     &__list {
@@ -332,6 +349,16 @@
 
             letter-spacing: 0.14px;
         }
+    }
+
+    &__bottom {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn {
+        min-width: 140px;
     }
 }
 
@@ -564,7 +591,7 @@
         color: #7a7a7e;
 
         font-size: 1.6rem;
-        transition: all .5s;
+        transition: all 0.5s;
 
         & + & {
             margin-top: 18px;
@@ -603,7 +630,6 @@
         &:hover {
             transform: translateY(-10px);
             background: #b6b6b6;
-
         }
     }
 

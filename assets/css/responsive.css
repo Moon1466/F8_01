@@ -10,6 +10,10 @@
     .hero__icon {
         height: calc(65% + ((100 - 65) * (100vw - 992px) / (1100 - 992)));
     }
+
+    .featured__btn{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -68,9 +72,9 @@
         padding: 20px 0;
     }
 
-    .hero{
-        height: calc(100vh - 102px);
-    }
+  .hero{
+    padding-top: 132px;
+  }
 
     .hero__icon {
         display: none;
@@ -100,6 +104,10 @@
         flex-wrap: wrap;
         gap: 30px;
         justify-content: center;
+    }
+
+  .client__rate  .client__desc{
+       display: none;
     }
 
     .stats__top {
@@ -148,6 +156,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .featured__btn{
+        display: none;
+    }
     .stats__numbers {
         font-size: 5rem;
     }
@@ -193,6 +204,10 @@
         font-size: 4.4rem;
     }
 
+    .client__content{
+        width: 200px;
+    }
+
     .work__desc{
         font-size: 1.4rem;
     }
@@ -206,6 +221,10 @@
         grid-template-columns: 1fr;
     }
 
+    .featured__link{
+        display: none;
+    }
+
     .stats__img {
         width: 328.289px;
         height: 378.603px;
@@ -214,6 +233,10 @@
     .stats__list {
         grid-template-columns: 1fr;
         row-gap: 30px;
+    }
+
+    .subs__content{
+        text-align: center;
     }
 
     .footer__list {
