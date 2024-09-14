@@ -1,0 +1,18 @@
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    height: 50px;
+    line-height: 50px;
+
+    border-radius: 8px;
+    background: #0f1b4c;
+
+    color: #fff;
+    text-align: center;
+
+    font-size: 1.4rem;
+
+    &:hover{
+        opacity: 0.75;
+    }
+}

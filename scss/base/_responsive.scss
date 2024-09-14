@@ -1,0 +1,23 @@
+// PC
+
+@media screen and (min-width: 992px){
+   
+}
+// Table & Mobile
+@media screen and (max-width: 991.98px){
+    .header{
+
+        &__list{ 
+        display: none;
+        }
+    }
+}
+
+// Tablet
+@media screen and (min-width: 767px) and (max-width: 991.98px){
+    
+}
+// Mobile
+@media screen and (max-width: 766.98px){
+    
+}
